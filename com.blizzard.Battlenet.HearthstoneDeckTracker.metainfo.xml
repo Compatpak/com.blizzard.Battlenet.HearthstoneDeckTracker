@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>com.blizzard.Battlenet.HearthstoneDeckTracker</id>
   
-  <name>Hearthstone Deck Tracker (Unofficial)</name>
+  <name>Hearthstone Deck Tracker</name>
   <summary>Hearthstone companion</summary>
   
   <metadata_license>CC-BY-SA-3.0</metadata_license>
@@ -16,7 +16,7 @@
   
   <description>
     <p>
-      Hearthstone Deck Tracker (Unofficial)
+      Hearthstone Deck Tracker is a free companion app to help you play like the pros.
     </p>
   </description>
 
