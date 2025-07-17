@@ -1,4 +1,4 @@
-# Hearthstone Deck Tracker (Unofficial)
+# Hearthstone Deck Tracker
 ## Building
 > **_NOTE:_**  With org.winestaging.Sdk, org.winestaging.Platform, and com.blizzard.Battlenet installed.
 ```console

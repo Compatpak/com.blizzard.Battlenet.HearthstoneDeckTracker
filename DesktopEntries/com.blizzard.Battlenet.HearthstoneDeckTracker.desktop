@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=Hearthstone Deck Tracker (Unofficial)
+Name=Hearthstone Deck Tracker
 GenericName=Hearthstone Deck Tracker
 Comment=Hearthstone companion
 Exec=HearthstoneDeckTracker.sh
-Categories=Game;
+Categories=Game;Network;
 Icon=com.blizzard.Battlenet.HearthstoneDeckTracker
 Keywords=HS Replay;Hearthstone Deck Tracker;Microsoft;Activision;Blizzard;Battlenet;Battle net;Battle.net;Hearthstone;
