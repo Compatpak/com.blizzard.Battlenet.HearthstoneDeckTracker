@@ -44,13 +44,17 @@ modules:
   - name: HearthstoneDeckTracker
     buildsystem: simple
     sources:
-      # TODO: Add x-checker-data
       # NOTE: These files are downloaded when the user installs this Flatpak, and are not included in the Flatpak when it is built. This is necessary to avoid redistributing copyrighted materials or very large files
       # Hearthstone Deck Tracker installation folder, which contains icon and executable to be ran with Wine (Downloaded to /app/extra when user is installing because of extra-data)
       - type: extra-data
         url: https://github.com/HearthSim/Hearthstone-Deck-Tracker/releases/download/v1.44.13/Hearthstone.Deck.Tracker-v1.44.13.zip
         sha256: 66798acb0a678f26a34867b77bf40105ff5264707d8bc0b72361adaf92881c41                                                    # Hash that is used to confirm the correct file was downloaded
         size: 17153167                                                                                                              # Size of executable (Found with "wc --bytes < filename")
+        x-checker-data: # Checks for a newer version when org.flathub.flatpak-external-data-checker is ran on this file
+          type: html
+          url: https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/refs/heads/master/Hearthstone%20Deck%20Tracker/Hearthstone%20Deck%20Tracker.csproj # Use this file to...
+          version-pattern: <FileVersion>(\d[\d\.]+\d)</FileVersion>                                                                                                    # Search for this regex pattern
+          url-template: https://github.com/HearthSim/Hearthstone-Deck-Tracker/releases/download/v$version/Hearthstone.Deck.Tracker-v$version.zip                       # Compare this file (found using regex match from above) to the source to see if there is a newer version
         filename: Hearthstone Deck Tracker.zip
 
       # Script that is automatically ran when user is installing, after extra-data is downloaded
