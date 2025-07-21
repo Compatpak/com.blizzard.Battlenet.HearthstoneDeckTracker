@@ -49,6 +49,7 @@
     <color type="primary" scheme_preference="dark">#43aada</color>
   </branding>
 
+  <!-- Uses https://hughsie.github.io/oars/generate.html to generate -->
   <content_rating type="oars-1.0">
     <content_attribute id="social-info">moderate</content_attribute>
     <content_attribute id="money-purchasing">intense</content_attribute>
@@ -58,7 +59,7 @@
   <url type="homepage">https://compatpak.github.io/repo/</url>
   <url type="donation">https://www.patreon.com/c/Compatpak</url>
   <url type="donation">https://ko-fi.com/compatpak</url>
-  <url type="contact">https://discord.gg/zwXQsCkn2p</url>
+  <url type="contact">https://discord.gg/P7DZVjDSUa</url>
   <!-- <url type="faq">https://example.org/faq</url> -->
   <!-- <url type="translate">https://example.org/translate</url> -->
   <url type="bugtracker">https://github.com/Compatpak/com.blizzard.Battlenet.HearthstoneDeckTracker/issues</url>
