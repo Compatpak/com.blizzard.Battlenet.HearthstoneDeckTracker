@@ -47,9 +47,9 @@ modules:
       # NOTE: These files are downloaded when the user installs this Flatpak, and are not included in the Flatpak when it is built. This is necessary to avoid redistributing copyrighted materials or very large files
       # Hearthstone Deck Tracker installation folder, which contains icon and executable to be ran with Wine (Downloaded to /app/extra when user is installing because of extra-data)
       - type: extra-data
-        url: https://github.com/HearthSim/Hearthstone-Deck-Tracker/releases/download/v1.44.13/Hearthstone.Deck.Tracker-v1.44.13.zip
-        sha256: 66798acb0a678f26a34867b77bf40105ff5264707d8bc0b72361adaf92881c41                                                    # Hash that is used to confirm the correct file was downloaded
-        size: 17153167                                                                                                              # Size of executable (Found with "wc --bytes < filename")
+        url: https://github.com/HearthSim/Hearthstone-Deck-Tracker/releases/download/v1.45.8/Hearthstone.Deck.Tracker-v1.45.8.zip
+        sha256: 200e5ec21ba397dbe13a4de59fee1fd5e94ea43ecc668a6ec9a3266f48ef1a30                                                    # Hash that is used to confirm the correct file was downloaded
+        size: 16668763                                                                                                              # Size of executable (Found with "wc --bytes < filename")
         x-checker-data: # Checks for a newer version when org.flathub.flatpak-external-data-checker is ran on this file
           type: html
           url: https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/refs/heads/master/Hearthstone%20Deck%20Tracker/Hearthstone%20Deck%20Tracker.csproj # Use this file to...
