@@ -92,8 +92,11 @@
   </screenshots>
 
   <releases>
-    <release version="1.45.8" date="2025-07-17">
+    <release version="1.46.1" date="2025-07-23">
       <description></description>
+    </release>
+    <release version="1.45.8" date="2025-07-17">
+      <description/>
     </release>
     <release version="1" date="2025-06-30">
       <!-- <url type="details">https://example.org/changelog.html#version_1.0.1</url> -->
