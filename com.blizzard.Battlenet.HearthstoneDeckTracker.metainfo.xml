@@ -44,6 +44,7 @@
 
   <project_group>Compatpak</project_group>
 
+  <!-- Preview at https://docs.flathub.org/banner-preview/ -->
   <branding>
     <color type="primary" scheme_preference="light">#1d3558</color>
     <color type="primary" scheme_preference="dark">#43aada</color>

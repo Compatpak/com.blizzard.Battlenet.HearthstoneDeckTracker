@@ -2,7 +2,7 @@
 ## Building
 > **_NOTE:_**  With org.winestaging.Sdk, org.winestaging.Platform, and com.blizzard.Battlenet installed.
 ```console
-flatpak run org.flatpak.Builder build-dir --repo=../Compatpak/repo --force-clean com.blizzard.Battlenet.HearthstoneDeckTracker.yml
+flatpak-builder build-dir --repo=../Compatpak/repo --force-clean --disable-rofiles-fuse --gpg-sign=GPGKey com.blizzard.Battlenet.HearthstoneDeckTracker.yml
 ```
 ## Installing
 ```console

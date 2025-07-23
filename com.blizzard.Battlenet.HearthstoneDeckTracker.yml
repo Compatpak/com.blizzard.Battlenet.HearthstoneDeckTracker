@@ -4,8 +4,8 @@ sdk: org.winestaging.Sdk
 runtime: org.winestaging.Platform
 runtime-version: '10.10'
 base: com.blizzard.Battlenet                                        # Base this Flatpak on the com.blizzard.Battlenet Flatpak (This Flatpak has access to all files the Base Flatpak has access to)
-# rename-desktop-file: HearthstoneDeckTracker.desktop               # Not needed because desktop file is already named com.blizzard.Battlenet.HeathstoneDeckTracker
-# rename-icon: HearthstoneDeckTracker                               # Not needed because icons are already named com.blizzard.Battlenet.HeathstoneDeckTracker
+# rename-desktop-file: HearthstoneDeckTracker.desktop               # Not needed because desktop file is already in reversed domain name format
+# rename-icon: HearthstoneDeckTracker                               # Not needed because icons are already in reversed domain name format
 command: HearthstoneDeckTracker.sh
 finish-args:
   - --allow=multiarch                                            # Access to 32bit libraries (For running 32bit executables)
